@@ -1,0 +1,56 @@
+[
+ {
+  "beta_age": 0.1,
+  "beta_com": 0.5,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 32.189266029245275
+ },
+ {
+  "beta_age": 0.1,
+  "beta_com": 0.9,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 13.399010149553488
+ },
+ {
+  "beta_age": 0.1,
+  "beta_com": 1.3,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 7.272463141749293
+ },
+ {
+  "beta_age": 0.18,
+  "beta_com": 0.5,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 26.135558992485727
+ },
+ {
+  "beta_age": 0.18,
+  "beta_com": 0.9,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 8.692212316960617
+ },
+ {
+  "beta_age": 0.18,
+  "beta_com": 1.3,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 4.668170927375481
+ },
+ {
+  "beta_age": 0.3,
+  "beta_com": 0.5,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 16.756960716972973
+ },
+ {
+  "beta_age": 0.3,
+  "beta_com": 0.9,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 6.714278748931135
+ },
+ {
+  "beta_age": 0.3,
+  "beta_com": 1.3,
+  "outcome": "Transfusion",
+  "rel_regret_pct": 3.1711129458305742
+ }
+]
