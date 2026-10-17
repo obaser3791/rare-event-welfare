@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rewelfare"
+version = "0.2.0"
+description = "Welfare-calibrated estimation for rare events (Baser 2026)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Onur Baser" }]
+keywords = [
+    "logistic regression",
+    "rare events",
+    "Firth penalization",
+    "policy learning",
+    "health economics",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.22",
+]
+
+[project.optional-dependencies]
+scripts = ["pandas>=1.5", "matplotlib>=3.5", "scipy>=1.9"]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/obaser3791/rare-event-welfare"
+Paper    = "https://github.com/obaser3791/rare-event-welfare"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rewelfare = ["py.typed"]

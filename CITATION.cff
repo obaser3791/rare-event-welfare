@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "rare-event-welfare: reference implementation of welfare-calibrated PML"
+authors:
+  - family-names: Baser
+    given-names: Onur
+version: 0.2.0
+date-released: 2026-10-17
+license: MIT
+repository-code: "https://github.com/obaser3791/rare-event-welfare"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Baser
+      given-names: Onur
+  title: "Welfare-calibrated estimation for rare events: Targeting, adoption, and the limits of bias correction"
+  year: 2026
